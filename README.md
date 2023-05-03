@@ -8,10 +8,10 @@ This is the application which allows users to generate and download memes using 
 - [x] Create an HTML image where the image will generate
 - [x] Change the meme template
   - [x] Create the label to contain the text `Meme template`
-  - [x] Create an input selection whit the `Meme template` name:
-    - [x] Click on the label of the meme template selector
+  - [x] Create an selection with the `Meme template` name:
+    - [x] Click on the option of the meme template selector
     - [x] Clear any existing value (eg. with a text box)
-    - [x] Type the text doge
+    - [x] Type the text name
     - [x] Hit enter
 - [x] Create the `Download` button
 
