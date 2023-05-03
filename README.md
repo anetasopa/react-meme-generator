@@ -1,4 +1,6 @@
-# Create a web app with React that allows for users to generate and download memes using the https://memegen.link/ website.
+# Create a web app with React
+
+This is the application which allows users to generate and download memes using the https://memegen.link/ website.
 
 ### TODO
 
