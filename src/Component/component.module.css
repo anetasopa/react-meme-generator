@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sigmar&display=swap');
+
+h1 {
+  text-align: center;
+  color: var(--main-color);
+  font-family: 'Sigmar', sans-serif;
+}
+
+img {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}

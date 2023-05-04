@@ -1,0 +1,5 @@
+.component {
+  display: block;
+  color: var(--main-color);
+  text-align: center;
+}
