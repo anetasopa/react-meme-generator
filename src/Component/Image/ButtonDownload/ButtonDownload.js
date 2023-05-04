@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import styles from './buttonDownload.module.css';
 
 function ButtonDownload({ imageUrl }) {
@@ -15,7 +16,7 @@ function ButtonDownload({ imageUrl }) {
   }, 5000);
 
   return (
-    <a className={styles.a} target="_blank" href={imageUrl} download>
+    <a className={styles.a} href={imageUrl} download>
       <button className={styles.button} onClick={() => downloadImage()}>
         Download
       </button>
