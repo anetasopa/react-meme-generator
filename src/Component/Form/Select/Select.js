@@ -13,9 +13,9 @@ function Select({ template, setTemplate }) {
         <option value="fry">Fry</option>
         <option value="zuckerberg">Zuckerberg</option>
         <option value="chosen">Chosen</option>
-        <option>Cheems</option>
-        <option>Country</option>
-        <option>Crazypills</option>
+        <option value="cheems">Cheems</option>
+        <option value="country">Country</option>
+        <option value="crazypills">Crazypills</option>
       </select>
     </div>
   );
