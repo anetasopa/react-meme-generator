@@ -16,7 +16,7 @@ function ButtonDownload({ imageUrl }) {
   }, 5000);
 
   return (
-    <a className={styles.a} href={imageUrl} download>
+    <a className={styles.a} target="_blank" href={imageUrl} download>
       <button className={styles.button} onClick={() => downloadImage()}>
         Download
       </button>
