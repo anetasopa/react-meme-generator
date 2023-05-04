@@ -2,7 +2,7 @@
 import styles from './buttonDownload.module.css';
 
 function ButtonDownload({ imageUrl }) {
-  const downloadImage = setTimeout(() => {
+  const downloadImage = () => {
     fetch(imageUrl, {
       method: 'GET',
       headers: {},
@@ -13,7 +13,7 @@ function ButtonDownload({ imageUrl }) {
       .catch((err) => {
         console.log(err);
       });
-  }, 5000);
+  };
 
   return (
     <a className={styles.a} target="_blank" href={imageUrl} download>
