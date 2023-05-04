@@ -1,5 +1,24 @@
-.component {
+.container {
   display: block;
-  color: var(--main-color);
-  text-align: center;
+  width: 100%;
+}
+
+label {
+  color: white;
+  font-family: var(--font-family);
+  font-size: var(--font-size-s);
+  display: grid;
+  margin-top: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+::placeholder {
+  color: var(--grey);
+  opacity: 1;
 }

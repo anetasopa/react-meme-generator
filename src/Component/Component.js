@@ -1,8 +1,9 @@
 import { useState } from 'react';
 // import { ShimmerButton } from 'react-shimmer-effects';
-// import styles from './component.module.css';
+import styles from './component.module.css';
 import Form from './Form/Form';
 import Header from './Header/Header';
+import Image from './Image/Image';
 
 function Component() {
   const [topText, setTopText] = useState('');
@@ -12,37 +13,21 @@ function Component() {
     `https://api.memegen.link/images/${template}/${topText}${bottomText}.jpg`,
   );
 
-  const downloadImage = setTimeout(() => {
-    fetch(imageUrl, {
-      method: 'GET',
-      headers: {},
-    })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, 5000);
-
   return (
     <div>
       <Header />
-      <Form
-        topText={topText}
-        setTopText={setTopText}
-        bottomText={bottomText}
-        setBottomText={setBottomText}
-        template={template}
-        setTemplate={setTemplate}
-        setImageUrl={setImageUrl}
-      />
-      <div>
-        <img src={imageUrl} alt="Meme" data-test-id="meme-image" />
+      <div className={styles.container}>
+        <Form
+          topText={topText}
+          setTopText={setTopText}
+          bottomText={bottomText}
+          setBottomText={setBottomText}
+          template={template}
+          setTemplate={setTemplate}
+          setImageUrl={setImageUrl}
+        />
+        <Image imageUrl={imageUrl} />
       </div>
-      <a target="_blank" href={imageUrl} download>
-        <button onClick={() => downloadImage()}>Download</button>
-      </a>
     </div>
   );
 }

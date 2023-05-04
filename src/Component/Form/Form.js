@@ -1,4 +1,4 @@
-import Button from './Button/Button';
+import ButtonGenerate from './ButtonGenerate/ButtonGenerate';
 import styles from './form.module.css';
 import Inputs from './Inputs/Inputs';
 import Select from './Select/Select';
@@ -20,7 +20,7 @@ function Form({
   }
 
   return (
-    <form>
+    <form className={styles.form}>
       <Inputs
         setTopText={setTopText}
         setBottomText={setBottomText}
@@ -28,7 +28,7 @@ function Form({
         bottomText={bottomText}
       />
       <Select template={template} setTemplate={setTemplate} />
-      <Button generateMeme={generateMeme} />
+      <ButtonGenerate generateMeme={generateMeme} />
     </form>
   );
 }

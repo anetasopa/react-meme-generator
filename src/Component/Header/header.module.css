@@ -1,5 +1,8 @@
-.component {
+.container {
   display: block;
   color: var(--main-color);
   text-align: center;
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-x-l);
+  margin-top: 50px;
 }
