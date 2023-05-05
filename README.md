@@ -31,4 +31,4 @@ Meme Generator is based on `React` and `module.css`.
 
 ### What was the challenge for me? 🤯
 
-The hardest part for me was to understand how the project should look like in the end. But after created my todo list, analyzed it all points on the list the solution was getting clearer where the project finally came into existence 🙂
+The hardest part for me was understanding how the project should look like in the end. However, after creating my to-do list and analyzing all the points on the list, the solution became clearer, and the project finally came into existence 🙂
