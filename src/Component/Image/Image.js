@@ -1,7 +1,7 @@
 import ButtonDownload from './ButtonDownload/ButtonDownload';
 import styles from './image.module.css';
 
-function Image({ imageUrl }) {
+function Image({ imageUrl, template }) {
   return (
     <div>
       <img
@@ -10,7 +10,7 @@ function Image({ imageUrl }) {
         alt="Meme"
         data-test-id="meme-image"
       />
-      <ButtonDownload imageUrl={imageUrl} />
+      <ButtonDownload template={template} imageUrl={imageUrl} />
     </div>
   );
 }

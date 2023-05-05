@@ -6,7 +6,7 @@ import Header from './Header/Header';
 import Image from './Image/Image';
 
 function Component() {
-  const [topText, setTopText] = useState('Doge');
+  const [topText, setTopText] = useState('');
   const [bottomText, setBottomText] = useState('');
   const [template, setTemplate] = useState('doge');
   const [imageUrl, setImageUrl] = useState(
@@ -26,7 +26,7 @@ function Component() {
           setTemplate={setTemplate}
           setImageUrl={setImageUrl}
         />
-        <Image imageUrl={imageUrl} />
+        <Image imageUrl={imageUrl} template={template} />
       </div>
     </div>
   );
