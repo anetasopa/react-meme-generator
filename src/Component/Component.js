@@ -10,7 +10,7 @@ function Component() {
   const [bottomText, setBottomText] = useState('');
   const [template, setTemplate] = useState('doge');
   const [imageUrl, setImageUrl] = useState(
-    `https://api.memegen.link/images/${template}/${topText}${bottomText}.jpg`,
+    `https://api.memegen.link/images/${template}/${topText}${bottomText}_`,
   );
 
   return (
@@ -26,7 +26,11 @@ function Component() {
           setTemplate={setTemplate}
           setImageUrl={setImageUrl}
         />
-        <Image imageUrl={imageUrl} template={template} />
+        {topText === '' || bottomText === '' ? (
+          <Image imageUrl={imageUrl} template={template} />
+        ) : (
+          <Image imageUrl={imageUrl} template={template} />
+        )}
       </div>
     </div>
   );

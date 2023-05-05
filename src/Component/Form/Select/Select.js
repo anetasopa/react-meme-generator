@@ -7,7 +7,7 @@ function Select({ template, setTemplate }) {
 
   return (
     <div className={styles.container}>
-      <label htmlFor="templateSelector">Meme Template:</label>
+      <label htmlFor="templateSelector">Meme template:</label>
       <select value={template} onChange={chooseMemeTemplate}>
         <option>Doge</option>
         <option value="fry">Fry</option>
