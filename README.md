@@ -1,5 +1,7 @@
 # Meme React Generator
 
+<img width="400" alt="Screenshot 2023-05-05 at 12 25 39" src="https://user-images.githubusercontent.com/58802893/236435541-28e0ba4c-a63b-4158-a3ac-41d2bd1b59a0.png">
+
 ### How is it works? 🤔
 
 This application allows the user to choose a meme template from the options, add some text on the top and bottom and download the meme to your local computer.
