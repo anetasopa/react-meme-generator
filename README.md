@@ -30,6 +30,16 @@ This comment will display you the project under the `http://localhost:3000/` lin
 
 Meme Generator is based on `React` and `module.css`.
 
+### How do I start the project ❓
+1. I was thinking about what the project should look like.
+2. Write the to-do list.
+3. Implement the to-do list functionality in the code.
+4. Create a design in Figma.
+5. Create the skeleton of the page.
+6. Style the page using CSS.
+
+<img width="416" alt="Screenshot 2023-05-05 at 15 34 35" src="https://user-images.githubusercontent.com/58802893/236472179-86f975fc-511e-4573-81c7-5bc0971ab682.png">
+
 ### What was the challenge for me? 🤯
 
 The hardest part for me was understanding how the project should look like in the end. However, after creating my to-do list and analyzing all the points on the list, the solution became clearer, and the project finally came into existence 🙂
