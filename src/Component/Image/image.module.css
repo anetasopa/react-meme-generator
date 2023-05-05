@@ -3,3 +3,10 @@
   height: 300px;
   border-radius: 3px;
 }
+
+@media (max-width: 768px) {
+  .img {
+    width: 200px;
+    height: 200px;
+  }
+}

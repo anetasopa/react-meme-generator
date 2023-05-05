@@ -6,7 +6,7 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
       <label htmlFor="topText">
         Top text:
         <input
-          placeholder="Top text"
+          placeholder="Hello"
           type="topText"
           value={topText}
           onChange={(e) => setTopText(e.target.value)}
@@ -15,7 +15,7 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
       <label htmlFor="bottomText">
         Bottom text:
         <input
-          placeholder="Bottom text"
+          placeholder="World"
           type="bottomText"
           value={bottomText}
           onChange={(e) => setBottomText(e.target.value)}

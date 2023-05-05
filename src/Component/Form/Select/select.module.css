@@ -25,3 +25,14 @@ select {
   box-sizing: border-box;
   border-radius: 3px;
 }
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--button-color);
+}
+@media (max-width: 768px) {
+  select {
+    width: 94%;
+    margin-left: 6px;
+  }
+}

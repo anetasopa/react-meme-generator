@@ -11,11 +11,13 @@ function Select({ template, setTemplate }) {
       <select value={template} onChange={chooseMemeTemplate}>
         <option>Doge</option>
         <option value="fry">Fry</option>
-        <option value="zuckerberg">Zuckerberg</option>
         <option value="chosen">Chosen</option>
         <option value="cheems">Cheems</option>
         <option value="country">Country</option>
         <option value="crazypills">Crazypills</option>
+        <option value="aag">Aag</option>
+        <option value="center">Center</option>
+        <option value="disastergirl">Disastergirl</option>
       </select>
     </div>
   );

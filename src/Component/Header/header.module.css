@@ -6,3 +6,15 @@
   font-size: var(--font-size-x-l);
   margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: var(--font-size-xx-l);
+  }
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: var(--font-size-s);
+  }
+}

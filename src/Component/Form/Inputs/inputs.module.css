@@ -11,11 +11,28 @@ label {
   margin-top: 5px;
 }
 
+@media (max-width: 768px) {
+  label {
+    margin: 5px;
+  }
+}
+
 input {
   width: 100%;
   padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 3px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--button-color);
+}
+
+@media (max-width: 768px) {
+  input {
+    width: auto !important;
+  }
 }
 
 ::placeholder {

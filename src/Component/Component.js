@@ -26,11 +26,7 @@ function Component() {
           setTemplate={setTemplate}
           setImageUrl={setImageUrl}
         />
-        {topText === '' || bottomText === '' ? (
-          <Image imageUrl={imageUrl} template={template} />
-        ) : (
-          <Image imageUrl={imageUrl} template={template} />
-        )}
+        <Image imageUrl={imageUrl} template={template} />
       </div>
     </div>
   );
