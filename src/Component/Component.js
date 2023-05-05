@@ -1,5 +1,4 @@
 import { useState } from 'react';
-// import { ShimmerButton } from 'react-shimmer-effects';
 import styles from './component.module.css';
 import Form from './Form/Form';
 import Header from './Header/Header';
