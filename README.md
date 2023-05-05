@@ -4,20 +4,21 @@
 
 ### How is it works? 🤔
 
-This application allows the user to choose a meme template from the options, add some text on the top and bottom and download the meme to your local computer.
+This application enables the user to select a meme template from the available options, add text to the top and bottom, and download the meme to their local computer.
 
 ### Started with TODO list 🧐
 
-- [x] Create the labels on the top and bottom
-- [x] Create an HTML image where the image will generate
-- [x] Change the meme template
-  - [x] Create the label to contain the text `Meme template`
-  - [x] Create an selection with the `Meme template` name:
-    - [x] Click on the option of the meme template selector
-    - [x] Clear any existing value (eg. with a text box)
-    - [x] Type the text name
-    - [x] Hit enter
-- [x] Create the `Download` button
+
+ - [x] Create labels for the top and bottom text inputs.
+ - [x] Create an HTML image element where the generated meme will appear.
+ - [x] Implement the ability to change the meme template:
+  - [x] Create a label to display the text "Meme template."
+  - [x] Create a dropdown selection element with the name "Meme template":
+    - [x] Allow the user to click on the dropdown to view the available options.
+    - [x] Clear any existing value in the dropdown (e.g. using a text box).
+    - [x] Allow the user to type the name of the desired meme template.
+    - [x] Allow the user to hit enter to select the desired meme template.
+ - [x] Create a "Download" button that allows the user to download the generated meme to their local device.
 
 ### How run the project?
 
