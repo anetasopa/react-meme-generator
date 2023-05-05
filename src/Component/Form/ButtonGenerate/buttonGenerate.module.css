@@ -31,9 +31,3 @@
     margin-left: 6px;
   }
 }
-
-@media (max-width: 885px) {
-  .container {
-    margin: 0;
-  }
-}

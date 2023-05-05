@@ -3,7 +3,7 @@ import styles from './image.module.css';
 
 function Image({ imageUrl, template }) {
   return (
-    <div>
+    <div className={styles.container}>
       <img
         className={styles.img}
         src={imageUrl}

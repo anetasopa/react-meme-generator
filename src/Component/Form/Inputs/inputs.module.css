@@ -29,12 +29,6 @@ input:focus {
   box-shadow: 0 0 0 2px var(--button-color);
 }
 
-@media (max-width: 768px) {
-  input {
-    width: auto !important;
-  }
-}
-
 ::placeholder {
   color: var(--grey);
   opacity: 1;

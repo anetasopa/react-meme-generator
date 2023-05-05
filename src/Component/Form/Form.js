@@ -15,7 +15,9 @@ function Form({
   function generateMeme(e) {
     e.preventDefault();
     setImageUrl(
-      `https://api.memegen.link/images/${template}/${topText}/${bottomText}_`,
+      `https://api.memegen.link/images/${template}/${
+        topText ? topText : '_'
+      }/${bottomText}_`,
     );
   }
 
