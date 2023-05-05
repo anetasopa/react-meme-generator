@@ -5,7 +5,7 @@ import Header from './Header/Header';
 import Image from './Image/Image';
 
 function Component() {
-  const [topText, setTopText] = useState('');
+  const [topText, setTopText] = useState('Hello');
   const [bottomText, setBottomText] = useState('');
   const [template, setTemplate] = useState('doge');
   const [imageUrl, setImageUrl] = useState(
