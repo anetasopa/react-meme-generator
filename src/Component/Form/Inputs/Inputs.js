@@ -4,7 +4,7 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
   return (
     <div className={styles.container}>
       <label htmlFor="topText">
-        Top text:
+        Top text
         <input
           placeholder="Hello"
           type="topText"
@@ -13,7 +13,7 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
         />
       </label>
       <label htmlFor="bottomText">
-        Bottom text:
+        Bottom text
         <input
           placeholder="World"
           type="bottomText"
