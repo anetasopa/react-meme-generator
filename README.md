@@ -45,4 +45,4 @@ Meme Generator is based on `React` and `module.css`.
 The hardest part for me was understanding how the project should look like in the end. However, after creating my to-do list and analyzing all the points on the list, the solution became clearer, and the project finally came into existence 🙂
 
 
-### You can also **view the code** [here](https://codesandbox.io/s/github/butterfly-123/react-meme-generator) on CodeSandbox.
+You can also **view the code** [here](https://codesandbox.io/s/github/butterfly-123/react-meme-generator) on CodeSandbox.
