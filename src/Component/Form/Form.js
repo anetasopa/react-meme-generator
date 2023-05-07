@@ -32,7 +32,7 @@ function Form({
   }
 
   return (
-    <form className={styles.form}>
+    <form className={styles.form} onSubmit={(event) => event.preventDefault()}>
       <Inputs
         setTopText={setTopText}
         setBottomText={setBottomText}
