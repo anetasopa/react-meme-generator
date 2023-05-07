@@ -33,7 +33,7 @@ select:focus {
 
 @media (max-width: 768px) {
   select {
-    width: 94%;
+    width: 98%;
     margin-left: 6px;
   }
 }

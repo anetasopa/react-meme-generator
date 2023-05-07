@@ -7,6 +7,16 @@ function Select({ template, setTemplate }) {
 
   return (
     <div className={styles.container}>
+      <label hidden>
+        Meme template
+        <input
+          value={template}
+          onFocus={(event) => (event.currentTarget.value = '')}
+          onChange={(event) => {
+            setTemplate(event.currentTarget.value);
+          }}
+        />
+      </label>
       <label htmlFor="templateSelector">Select template</label>
       <select value={template} onChange={chooseMemeTemplate}>
         <option value="fry">Fry</option>
@@ -19,16 +29,6 @@ function Select({ template, setTemplate }) {
         <option value="center">Center</option>
         <option value="disastergirl">Disastergirl</option>
       </select>
-      <label hidden>
-        Meme template
-        <input
-          value={template}
-          onFocus={(event) => (event.currentTarget.value = '')}
-          onChange={(event) => {
-            setTemplate(event.currentTarget.value);
-          }}
-        />
-      </label>
     </div>
   );
 }
