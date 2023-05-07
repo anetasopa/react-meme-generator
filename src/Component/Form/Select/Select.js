@@ -7,7 +7,7 @@ function Select({ template, setTemplate }) {
 
   return (
     <div className={styles.container}>
-      <label htmlFor="templateSelector">Meme template</label>
+      <label htmlFor="templateSelector">Select template</label>
       <select value={template} onChange={chooseMemeTemplate}>
         <option>Doge</option>
         <option value="fry">Fry</option>
@@ -19,6 +19,10 @@ function Select({ template, setTemplate }) {
         <option value="center">Center</option>
         <option value="disastergirl">Disastergirl</option>
       </select>
+      <label hidden="">
+        Meme template
+        <input value={template} onChange={(e) => setTemplate(e.target.value)} />
+      </label>
     </div>
   );
 }
