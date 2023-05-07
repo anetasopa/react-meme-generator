@@ -3,7 +3,7 @@ import styles from './inputs.module.css';
 function Inputs({ setTopText, setBottomText, topText, bottomText }) {
   return (
     <div className={styles.container}>
-      <label htmlFor="topText">
+      <label>
         Top text
         <input
           placeholder="Hello"
@@ -11,7 +11,7 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
           onChange={(e) => setTopText(e.target.value)}
         />
       </label>
-      <label htmlFor="bottomText">
+      <label>
         Bottom text
         <input
           placeholder="World"
