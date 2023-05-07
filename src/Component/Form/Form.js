@@ -14,11 +14,21 @@ function Form({
 }) {
   function generateMeme(e) {
     e.preventDefault();
-    setImageUrl(
-      `https://api.memegen.link/images/${template}/${
-        topText ? topText : '_'
-      }/${bottomText}_`,
-    );
+    let url = `https://api.memegen.link/images/${template}.jpg`;
+
+    if (topText) {
+      url = `https://api.memegen.link/images/${template}/${topText}.jpg`;
+    }
+
+    if (bottomText) {
+      url = `https://api.memegen.link/images/${template}/_/${bottomText}.jpg`;
+    }
+
+    if (topText && bottomText) {
+      url = `https://api.memegen.link/images/${template}/${topText}/${bottomText}.jpg`;
+    }
+
+    setImageUrl(url);
   }
 
   return (
