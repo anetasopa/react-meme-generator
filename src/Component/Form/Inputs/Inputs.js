@@ -8,7 +8,6 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
         <input
           placeholder="Hello"
           name="topText"
-          type="text"
           value={topText}
           onChange={(e) => setTopText(e.target.value)}
         />
@@ -18,7 +17,6 @@ function Inputs({ setTopText, setBottomText, topText, bottomText }) {
         <input
           placeholder="World"
           name="bottomText"
-          type="text"
           value={bottomText}
           onChange={(e) => setBottomText(e.target.value)}
         />
