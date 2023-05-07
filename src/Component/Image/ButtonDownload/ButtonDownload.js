@@ -1,5 +1,4 @@
 import saveAs from 'file-saver';
-/* eslint-disable no-restricted-syntax */
 import styles from './buttonDownload.module.css';
 
 function ButtonDownload({ imageUrl, template }) {
