@@ -9,7 +9,7 @@ function Component() {
   const [bottomText, setBottomText] = useState('');
   const [template, setTemplate] = useState('doge');
   const [imageUrl, setImageUrl] = useState(
-    `https://api.memegen.link/images/${template}/${topText}${bottomText}_`,
+    `https://api.memegen.link/images/doge.jpg`,
   );
 
   return (
