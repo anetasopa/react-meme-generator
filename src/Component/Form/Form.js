@@ -12,7 +12,7 @@ function Form({
   setTemplate,
   setImageUrl,
 }) {
-  function generateMeme(e) {
+  const generateMeme = (e) => {
     e.preventDefault();
     let url = `https://api.memegen.link/images/${template}.jpg`;
 
@@ -29,7 +29,7 @@ function Form({
     }
 
     setImageUrl(url);
-  }
+  };
 
   return (
     <form className={styles.form} onSubmit={(event) => event.preventDefault()}>

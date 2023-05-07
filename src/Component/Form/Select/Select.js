@@ -9,8 +9,8 @@ function Select({ template, setTemplate }) {
     <div className={styles.container}>
       <label htmlFor="templateSelector">Select template</label>
       <select value={template} onChange={chooseMemeTemplate}>
-        <option>Doge</option>
         <option value="fry">Fry</option>
+        <option value="doge">Doge</option>
         <option value="chosen">Chosen</option>
         <option value="cheems">Cheems</option>
         <option value="country">Country</option>
@@ -19,9 +19,15 @@ function Select({ template, setTemplate }) {
         <option value="center">Center</option>
         <option value="disastergirl">Disastergirl</option>
       </select>
-      <label hidden="">
+      <label hidden>
         Meme template
-        <input value={template} onChange={(e) => setTemplate(e.target.value)} />
+        <input
+          value={template}
+          onFocus={(event) => (event.currentTarget.value = '')}
+          onChange={(event) => {
+            setTemplate(event.currentTarget.value);
+          }}
+        />
       </label>
     </div>
   );
