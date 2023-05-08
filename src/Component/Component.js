@@ -7,7 +7,7 @@ import Image from './Image/Image';
 function Component() {
   const [topText, setTopText] = useState('');
   const [bottomText, setBottomText] = useState('');
-  const [template, setTemplate] = useState('doge');
+  const [template, setTemplate] = useState('fry');
   const [imageUrl, setImageUrl] = useState(
     `https://api.memegen.link/images/doge.jpg`,
   );
